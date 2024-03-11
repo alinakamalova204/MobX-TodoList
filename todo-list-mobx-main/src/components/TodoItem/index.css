@@ -1,0 +1,62 @@
+.todo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.todo-item span {
+    font-weight: bold;
+}
+
+.todo-item input[type="text"] {
+    width: 100%;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.todo-item button {
+    margin-left: 0.5rem;
+}
+
+.todo-item button:hover {
+    cursor: pointer;
+}
+
+.todo-item .edit-mode {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.todo-item .view-mode {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #5454f5;
+    border-radius: 5px;
+    color: #cccccc;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn span {
+    margin-right: 10px;
+}
+
+.btn button {
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #9e9ef3;
+}

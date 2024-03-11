@@ -1,0 +1,38 @@
+.todo-new {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 10px;
+}
+
+.todo-new input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.todo-new button:hover {
+    background-color: #9e9ef3;
+}
+
+.todo-new {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.todo-new input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.todo-new button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #5454f5;
+    border-radius: 5px;
+    color: #cccccc;
+}
+
